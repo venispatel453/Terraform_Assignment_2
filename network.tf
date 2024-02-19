@@ -23,3 +23,9 @@ resource "aws_route_table" "venis_routetable" {
     gateway_id = aws_internet_gateway.venis_gw.id
   }
 }
+
+#Assoiciating subnet with route table
+resource "aws_route_table_association" "subnet_association" {
+  subnet_id = aws_subnet.venis_subnet.id
+  route_table_id = aws_route_table.venis_routetable.id
+}
