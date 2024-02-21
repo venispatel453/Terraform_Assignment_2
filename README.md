@@ -1,7 +1,7 @@
 
 # S3 bucket and EC2 instance deployment
 
-This project utilizes Terraform to provision an EC2 Instance on AWS  .
+This project utilizes Terraform to provision an EC2 Instance and S3 bucket on AWS  .
 
 ## Description
 This Terraform project automates the deployment of an Amazon S3 bucket and an EC2 instance on AWS. The S3 bucket is configured with versioning enabled and set up for website hosting, with an index.html object hosted. The EC2 instance is deployed within a specified VPC, along with necessary network configurations like security groups, subnets, and internet gateways.
