@@ -19,14 +19,14 @@ This project utilizes Terraform to provision infrastructure as code on AWS. It s
     ```bash
     terraform init
     ```
-    ![terraform init]()
+    ![terraform init](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/init.png)
 
 2. **Validate Terraform Configuration**:
 
     ```bash
     terraform validate
     ```
-    ![terraform validate]()
+    ![terraform validate](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/validate.png)
 
 3. **Review and Customize Configuration**:
    
@@ -40,8 +40,8 @@ If the plan looks satisfactory, apply the changes:
     terraform apply
     ```
 
-    ![terraform apply-1]()
-    ![terraform apply-2]()
+    ![terraform apply-1](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/apply-1.png)
+    ![terraform apply-2](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/apply-2.png)
 
    This command will create the specified S3 bucket and if bucket is created successfully then EC2 instance will be created in associated resources on AWS.
 
@@ -53,7 +53,7 @@ If the plan looks satisfactory, apply the changes:
     terraform destroy
     ```
 
-    ![terraformm destroy]()
+    ![terraformm destroy](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/destroy.png)
 
 ## File Structure
 
@@ -65,5 +65,4 @@ If the plan looks satisfactory, apply the changes:
 - **`terraform.tfvars`**: Assigns values to the variables declared in `variables.tf`.
 - **`README.md`**: Documentation providing an overview, installation instructions, usage guidelines, and project structure.
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
