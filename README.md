@@ -44,8 +44,10 @@ If the plan looks satisfactory, apply the changes:
     ![terraform apply-2](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/apply-2.png)
 
    This command will create the specified S3 bucket and if bucket is created successfully then EC2 instance will be created in associated resources on AWS.
+   ![s3 bucket created](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/S3_bucket_created.png)
+   ![Ec2 instance created](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/instance_created.png)
 
-5. **Destroy Resources**:
+6. **Destroy Resources**:
 
    Once you're done with the resources, it's important to destroy them to avoid unnecessary costs. Use the following command:
 
