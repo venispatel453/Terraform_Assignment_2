@@ -4,7 +4,7 @@
 This project utilizes Terraform to provision an EC2 Instance and S3 bucket on AWS  .
 
 ## Description
-This Terraform project automates the deployment of an Amazon S3 bucket and an EC2 instance on AWS. The S3 bucket is configured with versioning enabled and set up for website hosting, with an index.html object hosted. The EC2 instance is deployed within a specified VPC, along with necessary network configurations like security groups, subnets, and internet gateways.
+This Terraform project automates the deployment of an Amazon S3 bucket and an EC2 instance on AWS. The S3 bucket is configured with versioning enabled and set up for website hosting, with an index.html object hosted. It will create one Ec2 instance along with that some necessary network configutations like one VPC(virtual private cloud), two subnets, two route tables will be also created.
 
 
 ## Overview
@@ -12,6 +12,13 @@ This project utilizes Terraform to provision infrastructure as code on AWS. It s
 ## Prerequisites
 - An AWS account with appropriate permissions to create and manage S3 buckets, EC2 instances, and networking resources.
 - Terraform installed locally.
+
+# Terraform Version
+
+| Used Terraform Version |
+|------------------------|
+| 1.3.0                  |
+
 ## Usage
 
 1. **Initialize the Terraform directory**:
@@ -33,6 +40,8 @@ This project utilizes Terraform to provision infrastructure as code on AWS. It s
 Review and modify configurations in respective `.tf` files if necessary.
 Run Terraform to plan the infrastructure changes:
 If the plan looks satisfactory, apply the changes:
+
+    ![terraform plan]()
 
 4. **Apply Terraform Changes**:
 
