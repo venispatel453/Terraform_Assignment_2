@@ -21,6 +21,7 @@ This project utilizes Terraform to provision infrastructure as code on AWS. It s
 
 ## Usage
 
+
 1. **Initialize the Terraform directory**:
 
     ```bash
