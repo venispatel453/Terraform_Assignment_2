@@ -42,7 +42,7 @@ Review and modify configurations in respective `.tf` files if necessary.
 Run Terraform to plan the infrastructure changes:
 If the plan looks satisfactory, apply the changes:
 
-![terraform plan](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/plan.png)
+    ![terraform plan](https://github.com/venispatel453/Terraform_Assignment_2/blob/master/Images/plan.png)
 
 4. **Apply Terraform Changes**:
 
